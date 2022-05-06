@@ -1,0 +1,320 @@
+ul{
+    padding-left: 0 !important;
+    margin: 0;
+}
+
+#home6 .take-action{
+    padding: 0;
+}
+
+#home6 .head-6 .swiper-slide,.home2 .head-6 .swiper-slide{
+    padding: 100px 0;
+}
+
+.home2 .take-action{
+    padding: 0 !important;
+}
+
+.home2 .take-action .section-heading{
+    text-align: left !important;
+    padding: 0 60px;
+}
+
+.home2 .take-action .section-heading p{
+    margin: revert !important;
+}
+
+.home2 .head-6 .title-design-element{
+    left: -25px !important;
+}
+
+.head-6 h2{
+    font-size: 4rem;
+}
+
+.head-6 .featured-text{
+    color: #c35023;
+    font-weight: bolder;
+}
+
+.head-6 .title-design-element{
+    left: 55px;
+}
+
+.head-6 .swiper-button-prev,.head-6 .swiper-button-next{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.head-6 .swiper-button-prev:hover,.head-6 .swiper-button-next:hover{
+    background-color: #c35023;
+}
+
+.pricing{
+    position: relative;
+    background-color: #121212;
+    height: auto;
+    padding: 4rem 0;
+}
+
+.pricing .overlay-photo-image-bg{ 
+    background-image: url(../../../assets/pattern-bg-1.jpg);
+    opacity: .025;
+    bottom: 0;
+}
+
+.pricing .section-title{
+    color: #fff;
+}
+
+.pricing .hollow-text{
+    position: relative;
+    z-index: 2;
+}
+
+.pricing .title-design-element{
+    z-index: 1;
+}
+
+.pricing .box-price{
+    position: relative;
+    background-color: #fff;
+    border: .5px solid #c35023;
+    z-index: 2;
+    padding:  40px 30px;
+    border-radius: 10px;
+}
+
+.pricing .box-price .plan-price h4{
+    font-family: "Merriweather", "sans-serif";
+    font-size: 4rem;
+    position: relative;
+    font-weight: 700;
+}
+
+.pricing .box-price .plan-price h4 .dolar{
+    color: #c35023;
+    font-size: 1.7rem;
+    font-weight: 500;
+    position: absolute;
+    left: -5px;
+}
+
+.pricing .box-price .plan-price h4 .tit{
+    color: #c35023;
+    font-size: 25px;
+    opacity: .75;
+    bottom: 15px;
+}
+
+.pricing .box-price .plan-price h3{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.pricing .box-price .plan-price h3::after{
+    content: ' ';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    background-color: #c35023;
+}
+
+.pricing .box-price .plan-price h3::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: .5px;
+    bottom: -26px;
+    left: 0;
+    opacity: .4;
+    background-color: #c35023;
+}
+
+.pricing .box-price .details ul{
+    margin-bottom: 50px;
+}
+
+.pricing .box-price .details li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.pricing .box-price .details li i{
+    color: #c35023;
+}
+
+.pricing .box-price .details h4{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #121212;
+}
+
+.pricing .box-price .details a,.details .a{
+    padding: 10px 30px 14px;
+    border: 2px solid #c35023;
+    border-radius: 5rem;
+    color: #c35023;
+    box-shadow: 0px 7px 10px -5px rgb(18 18 18 / 25%);
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing .box-price .details a:hover,.details .a:hover{
+    background-color: #c35023;
+    color: #fff;
+}
+
+#home6 .kk{
+    padding: 80px 0 20px 0;
+}
+
+#home6 .about .overlay-photo-image-bg{
+    background-image: url(../../../assets/subscribe.jpg);
+    bottom: 0 !important;
+}
+
+#home6 .kk .pp h1{
+    color: #fff;
+}
+
+#home6 .kk .tag-line {
+    color: #fff;
+}
+
+.testmonials-slid .tag-line {
+    color: black !important;
+}
+
+#home6 .kk .text p {
+    color: #f1f1f1;
+}
+
+#home6 .tittle-about {
+    padding: 0;
+}
+
+form{
+    position: relative;
+}
+
+#home6 input{
+    position: relative;
+    font-size: 1rem;
+    width: 100%;
+    padding: .75rem 1.5rem;
+    outline: none !important;
+    border: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(4px);
+    margin-bottom: 0;
+    z-index: 8;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+#home6 label {
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+    left: 24px;
+    transform: translateY(10px);
+}
+
+.ooo{
+    bottom: 53px;
+}
+
+.bbb{
+    z-index: 0;
+}
+
+.blog .section-title, .section-title{
+    z-index: 1;
+}
+
+#home6 .testimonials .section-heading .section-title{
+    color: #000000;
+}
+
+.blog .img{
+    position: relative;
+}
+
+.blog img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog .img .overlay-color{
+    transition: all .3s ease-in-out;
+    bottom: 0;
+    opacity: 0 !important;
+}
+
+.blog .img:hover .overlay-color{
+    opacity: .75 !important;
+}
+
+.blog .swiper-button-prev {
+    left: 70px  !important;
+}
+
+.blog .swiper-button-prev, .blog .swiper-button-next{
+    top: 270px !important;
+}
+
+.blog .item-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.blog .item-info .tag-line {
+    color: #fff !important;
+    transform: translateY(.5rem);
+    transition: all 0.5s ease-in-out 0s;
+    transition-delay: .2s;
+}
+
+.tag-line::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #c35023;
+    left: auto;
+    right: 0;
+}
+
+.blog .item-info .item-title {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "Merriweather", "sans-serif";
+    color: #fff;
+    padding-top: .5rem;
+    text-transform: capitalize;
+
+}
+
+.blog.testimonials .section-title{
+    color: black !important;
+}

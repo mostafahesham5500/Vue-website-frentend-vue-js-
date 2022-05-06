@@ -1,0 +1,33 @@
+.num-page{
+    display: flex;
+    justify-content: center;
+}
+
+.num-page li{
+    color: #c35023;
+    list-style: none;
+    float: initial;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding: 7px;
+}
+
+.num-page li.active,.num-page li:hover{
+    color: #fff;
+    border-color: #c35023;
+    background-color: #c35023;
+}
+
+.deactive-posts-page-item {
+    color: #8c8c8c !important;
+    pointer-events: none;
+    background-color: #f1f1f1 !important;
+    border-color: #121212 !important;
+    opacity: .5;
+}

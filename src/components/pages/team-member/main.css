@@ -1,0 +1,113 @@
+.Biography{
+    padding: 100px 0;
+}
+.Biography .social-icons ul{
+    display: flex;
+    justify-content: center;
+}
+
+.Biography .social-icons ul{
+    margin-bottom: 40px;
+}
+
+.Biography .details {
+    padding: 2rem 0 1rem;
+}
+
+.Biography .tm-title:first-of-type {
+    margin-top: 0;
+}
+
+.Biography .tm-title {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Merriweather", "sans-serif";
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #121212;
+}
+
+.init-text {
+    font-family: "Merriweather", "sans-serif";
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-style: italic;
+    opacity: .85;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+}
+
+.Biography .tm-text {
+    line-height: 1.6;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    opacity: .75;
+    color: #121212;
+}
+
+.tm-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.tm-list .list-item {
+    width: 50%;
+    margin-bottom: .5rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.25rem;
+    opacity: .75;
+    display: flex;
+    align-items: baseline;
+}
+
+.tm-list .list-item .icon {
+    color: #c35023;
+    margin-right: .5rem;
+    font-size: .85rem;
+}
+
+
+.tm-list .list-item span{
+    color: #121212;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.skills .skill {
+    margin-bottom: 1.5rem;
+}
+
+.skills .skill-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    font-weight: 600;
+}
+
+.skills .skill-bar {
+    width: 100%;
+    height: .75rem;
+    opacity: .75;
+    background-color: #b8b8b8;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.skills .skill-bar .bar {
+    width: 85%;
+    background-color: #c35023;
+    height: inherit;
+    border-radius: inherit;
+    transition: width 1s ease-in-out 0s;
+}

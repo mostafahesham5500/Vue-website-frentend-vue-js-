@@ -1,0 +1,113 @@
+
+.contact{
+    margin: 100px 0 0  0;
+}
+
+#app .contact .cta-links-area .cta-link-primary:hover{
+    background-color: #fff !important;
+    color: #c35023 !important;
+    border-color: #c35023 !important;
+}
+
+.contact .pp h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #202020;
+}
+
+.contact .text p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #121212;
+    opacity: .75;
+}
+
+.contact-info-panel{
+    padding: 6rem 2rem .77rem;
+    background: #202020;
+    position: relative;
+    z-index: 0;
+}
+
+.contact .overlay-photo-image-bg {
+    background-image: url(../../../assets/pattern-bg-1.jpg);
+    opacity: .025;
+    bottom: 0 !important;
+}
+
+.contact .overlay-color{
+    top: 0;
+}
+
+.contact .contact-info-panel .info-panel:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+
+.contact .contact-info-panel .info-panel {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: start;
+}
+
+
+.contact .contact-info-panel .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c35023;
+    opacity: .65;
+    font-size: 2rem;
+    margin-right: 1rem;
+    min-width: 2rem;
+}
+
+.contact .contact-info-panel .info-title {
+    text-transform: capitalize;
+    font-family: "Merriweather", "sans-serif";
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+.contact .contact-info-panel .info-text {
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    opacity: .75;
+    margin: 0;
+    margin-bottom: .5rem;
+    transition: all .3s ease-in-out;
+}
+
+.contact .contact-info-panel .info-text:hover {
+    opacity: 1;
+}
+
+.contact .tittle-about{
+    padding: 0 0 0 0 ;
+}
+
+.contact .map-box .mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 100%;
+}
+
+.contact .map-box .mapouter .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 100%;
+}
+
+.contact .map-box .mapouter .map-iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}

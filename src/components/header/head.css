@@ -1,0 +1,351 @@
+#nav {
+    position: fixed;
+    width: 100%;
+    padding: 0 30px !important;
+    z-index: 333;
+}
+
+.navbar {
+    position: unset !important;
+}
+
+.navcolor{
+    background-color: #c35023 !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+#app .navbar {
+    background-color: transparent !important;
+}
+
+img, svg {
+    height: 50px;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
+.navbar-nav li{
+    margin: 0 12px;
+}
+
+.navbar-nav li a{
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar-nav li a i{
+    font-size: 12px;
+}
+
+.navbar-nav .all-link::before{
+    content: '';
+    position: absolute;
+    width: calc(100%);
+    height: 2px;
+    background:white;
+    bottom: -7px;
+    left: 50%;
+    transition: all .3s ease-out 0s;
+    transform: translate(-50%) scaleX(0);
+}
+
+.navbar-nav li:hover .all-link::before{
+    transform: translate(-50%) scaleX(1);
+}
+
+a.router-link-exact-active {
+    color: white !important;
+    opacity: 0.9;
+}
+
+.list-pages{
+    position: absolute;
+    list-style: none;
+    width: 300px;
+    text-align: left;
+    padding: 25px 15px 0 15px;
+    transform: translateY(60px);
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-out 0s;
+}
+
+.navbar-nav > li:hover .list-pages{
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(26px);
+    -ms-transform: translateY(26px);
+    transform: translateY(26px);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.list-pages li{
+    margin-bottom: 20px !important;
+}
+.list-pages li a{
+    margin-left: 0;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.list-pages li > a::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    left: -27px;
+    top: 11px;
+    background: #c35023;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.list-pages li > a::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 50px;
+    top: -19px;
+    right: -25px;
+    background: #c35023;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.list-pages{
+    overflow: hidden;
+    margin-left: -20px;
+}
+
+.list-pages li:hover a::before{
+    width: 15px;
+    left: -24px;
+}
+
+#nav .list-pages li a{
+    color: black !important;
+        width: 100%;
+    display: inline-block;
+}
+
+.list-pages li:hover a::after{
+    width: 10px;
+}
+#app #nav .list-pages li:hover a{
+    color: #c35023 !important;
+    margin-left: 7px;
+}
+@media (max-width:992px) {
+    #nav-collapse{
+        display: none !important;
+    }
+}
+
+@media (min-width:992px) {
+    .screen-mb{
+        display: none !important;
+    }
+}
+
+.screen-mb{
+    position: absolute;
+    height: 400px;
+    width: 440px;
+    top: 76px;
+    left: -506px;
+    background: white;
+    transition: all 1s ease-in-out;
+    overflow: auto;
+}
+
+.show-mb{
+    left: 0;
+}
+
+.screen-mb > ul{
+    padding: 30px 0 0 0px;
+}
+
+.screen-mb ul,.screen-mb ul li{
+    list-style: none;
+}
+
+#app .screen-mb ul li a{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    padding: .75rem 1rem 0;
+    color: #121212 !important;
+    line-height: calc(70px / 2);
+}
+
+.screen-mb ul li a i{
+    position: absolute;
+    right: 0;
+    top: 19px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #c35023;
+    border: 1px solid #c35023;
+}
+
+#app .list-pages-mb{
+    padding-left: 2rem !important;
+}
+
+.list-pages-mb{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.cc + .list-pages-mb-show{
+    max-height: 300px;
+}
+
+.list-pages-mb-show a{
+    padding: .75rem 1rem 0 0 !important;
+}
+
+.list-pages-mb-show li a{ 
+    transition:all .5s ease-in-out;
+}
+
+.list-pages-mb-show li a::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    left: -32px;
+    top: 28px;
+    background: #c35023;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+#app .list-pages-mb-show li:hover a{
+    color: #c35023 !important;
+    padding-left: 7px !important;
+}
+
+.list-pages-mb-show li:hover a::before{
+    width: 15px;
+}
+
+#app .screen-mb ul li:hover > a{
+    color: #c35023 !important;
+}
+
+.list-pages-mb-show li:hover a::after{
+    width: 5px;
+    right: 0px;
+}
+
+.list-pages-mb-show li a::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 50px;
+    top: 5px;
+    right: -25px;
+    background: #c35023;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+#nav a {
+    font-weight: bold;
+    color: white !important;
+    opacity: .9;
+}
+
+
+
+.apper{
+    z-index: 55555555;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #121212;
+}
+
+.left-apper,.right-apper{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #c35023;
+    top: 0;
+    bottom: 0;
+}
+
+.left-apper{
+    left: 0;
+}
+
+.right-apper{
+    right: 0;
+}
+
+.active{
+    animation: apper 1.5s;
+}
+
+@keyframes apper {
+    0% {width: 50%;}
+    100% {width: 0;}
+}
+
+
+.apper .num{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    font-family: "Merriweather", "sans-serif";
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    line-height: 1.3;
+}

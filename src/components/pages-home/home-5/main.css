@@ -1,0 +1,110 @@
+#home5 .head-video{
+    padding: 120px 0;
+}
+#home5 .testimonials .section-heading .section-title{
+    color: black;
+}
+
+.head-video .tittle-about {
+    text-align: left;
+}
+
+.head-video .tittle-about .tag-line{
+    color: #fff;
+}
+
+.head-video .tittle-about .text p{
+    position: relative;
+    color: #f1f1f1;
+    font-size: 1.35rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+
+@media (max-height:500px) {
+    .head-video .tittle-about .text p{
+        display: none;
+    }
+}
+
+@media (max-height:700px) {
+    .head-video .tittle-about .text p{
+        display: none;
+    }
+}
+
+
+.head-video .left{
+    float: left;
+}
+
+.head-video .form {
+    position: relative;
+    padding: 2rem 1rem;
+    background: #fff;
+}
+
+.head-video .form h4 {
+    margin-bottom: 2rem;
+    color: #202020;
+    border-bottom: 2px solid #c35023;
+    padding-bottom: .75rem;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.head-video .form span.head{
+    color: #c35023;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.head-video .form .label{
+    display: inline-block;
+    margin-bottom: .25rem;
+    color: #202020;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.head-video .form form{
+    text-align: left;
+}
+
+
+.head-video .form input{
+    border: 1px solid rgba(195, 80, 35, 0.5) !important;
+    color: #202020 !important;
+    padding: .7rem 1rem !important;
+    font-size: 1rem;
+    width: 100%;
+    outline: none !important;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(4px);
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+}
+
+.mark {
+    font-weight: bold !important;
+    background-color: transparent !important;
+}
+
+.form .cta-link{
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+#app .cta-link{
+    border-width: 2px !important;
+}
+
+#home5 .head-video .form .cta-link:hover{
+    color: #c35023 !important;
+    background-color: transparent !important;
+    border-color: #c35023 !important;
+}

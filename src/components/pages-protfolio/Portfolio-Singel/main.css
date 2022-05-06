@@ -1,0 +1,133 @@
+.about.protfolio .pp h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+@media (max-width: 991px){
+    .about.protfolio .pp h1 {
+    font-size: 2.5rem !important;
+}
+}
+
+.about.protfolio{
+    padding-bottom: 0 !important;
+}
+
+.about.protfolio .text p{
+    font-size: 1.5rem;
+}
+
+.project-featured-img {
+    max-height: 450px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.project-featured-img .featured-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.about.protfolio .project-info .info{
+    margin-bottom: 30px;
+}
+
+.about.protfolio .project-info .info h5 {
+    margin-right: .25rem;
+    font-family: "Merriweather", "sans-serif";
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #c35023;
+    margin-bottom: .75rem;
+}
+
+.about.protfolio .project-info .info p {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #202020;
+    margin-bottom: 0;
+    opacity: .9;
+}
+
+.about.protfolio .project-info .social-icons ul li{
+    background-color: transparent;
+}
+
+.about.protfolio .project-info .social-icons ul li a{
+    color: #202020;
+    opacity: .9;
+}
+
+.goals p,.steps p,.Results p{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #121212;
+    opacity: .75;
+}
+
+.goals .project-featured-img{
+    margin-top: 40px;
+    position: relative;
+}
+
+.goals .overlay-color{
+    opacity: .5;
+}
+
+.steps .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.steps .list .list-item {
+    padding: .5rem 1.5rem;
+    padding-left: 0;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #121212;
+    opacity: .75;
+    display: flex;
+    align-items: baseline;
+}
+
+.steps .list .list-item .icon {
+    color: #c35023;
+    margin-right: .5rem;
+    font-size: 1.1rem;
+}
+
+.blog.Results{
+    margin-bottom: 80px;
+    padding: 0;
+}
+
+.blog.Results img{
+    object-fit: cover;
+    height: 450px;
+}
+
+.blog.Results .swiper-button-prev, .blog.Results .swiper-button-next{
+    top: 200px !important;
+}
+
+.testimonials.Results .swiper-button-prev{
+    transform: translateX(-110%);
+}
+
+.blog .swiper-slide-active .img .overlay-color{
+    opacity: .75 !important;
+    transition: all 1s ease-in-out;
+}

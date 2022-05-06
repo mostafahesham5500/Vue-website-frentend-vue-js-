@@ -1,0 +1,192 @@
+#home4 .testimonials .section-heading .section-title{
+    color: black;
+}
+
+.head-video{
+    position: relative;
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.head-video video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.head-video .content{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 0%;
+    transform: translateY(50%);
+}
+
+.head-video .content span{
+    color: #c35023;
+}
+
+.head-video .content h1{
+    font-family: "Merriweather", "sans-serif";
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.head-video .content p{
+    color: #f1f1f1;
+    font-size: 1.35rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 575px){
+    .head-video .content h1 {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+}
+}
+@media (max-width: 1199px){
+    .head-video .content h1 {
+    font-size: 3rem !important;
+}
+}
+@media (max-height: 500px){
+    .head-video .content p {
+    display: none;
+}
+}
+
+.head-form .cta-links-area a, .services-boxed .cta-links-area a, .cta-link.cta-link-primary {
+    padding: 13px 40px 16px !important;
+}
+
+@media (max-width: 991px){
+    .head-video .content p {
+    font-size: 1rem;
+}
+}
+
+.bg-photo .service-box {
+    position: relative;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-align: center !important;
+    overflow: hidden;
+    border-radius: 0 !important;
+    padding: 50px 15px;
+    margin-bottom: 30px;
+}
+
+.bg-photo .service-box .overlay-color{
+    bottom: 0 !important;
+}
+
+.bg-photo .service-box img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.bg-photo .service-box .serv-content{
+    position: relative;
+}
+
+.bg-photo .service-box .serv-content .serv-tittle{
+    color: #fff;
+}
+
+.bg-photo  .service-box:hover .serv-icon i {
+    color: #c35023;
+}
+
+.bg-photo  .service-box:hover img{
+    transform: scale(1.3);
+}
+
+.bg-photo  .service-box:hover .overlay-color{
+    opacity: .6;
+}
+
+.bg-photo .service-box .serv-content .serv-text{
+    color: #f1f1f1;
+}
+
+.bg-photo .serv-icon{
+    display: block;
+}
+
+.bg-photo .service-box:hover .read-more {
+    color: #c35023;
+}
+
+.read-more .icon{
+    margin-left: 0 !important;
+}
+
+.benefits .benefits-img .overlay-color{
+    top: 0 !important;
+}
+
+#home4 .benefits{
+    margin-top: 20px !important;
+}
+
+.testmonials-slid .overlay-pattern-image-bg{
+    z-index: 0 !important;
+}
+
+.testmonials-slid .overlay-photo-image-bg{
+    background-image: url(../../../assets/testmonials-slid-bg.jpg);
+    width: 50%;
+    left: auto;
+    bottom: 0 !important;
+}
+
+.testmonials-slid .overlay-color{
+    width: 50%;
+    left: auto;
+    top: 0;
+}
+
+.testmonials-slid .pp h1{
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width: 991px){
+.testmonials-slid .overlay-photo-image-bg, .testmonials-slid .overlay-color {
+    width: 0;
+}
+}
+
+@media (max-width: 991px){
+    .about .pp h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+}
+
+.testmonials-slid .swiper-button-prev,.testmonials-slid .swiper-button-next{
+    background-color: #c35023 !important;
+    margin-top: 1px !important;
+    color: #fff !important;
+}
+
+.testmonials-slid .swiper-button-prev:hover,.testmonials-slid .swiper-button-next:hover{
+    background-color: #121212 !important;
+}

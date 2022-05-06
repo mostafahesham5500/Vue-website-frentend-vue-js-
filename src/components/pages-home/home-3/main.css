@@ -1,0 +1,94 @@
+.black {
+    background-color: #202020 !important;
+    padding: 0 !important;
+}
+
+.black .tittle-about{
+    padding: 80px 50px !important;
+}
+
+.black .tag-line{
+    color: #fff !important;
+}
+
+.black .pp h1{
+    font-size: 3.5rem !important;
+    color: #fff !important;
+}
+
+.black .text p{
+    color: #fff !important;
+}
+
+.black .menu-items div{
+    color: #fff;
+}
+
+.black .img{
+    position: relative !important;
+}
+
+.vegas img{
+    margin-bottom: 30px;
+}
+
+#home3 .overlay-photo-image-bg{
+    background-image: url(../../../assets/subscribe.jpg);
+    bottom: 0 !important;
+}
+
+#home6 .tag-line{
+    color: #fff;
+}
+
+#home3 #home6 .pp h1{
+    color: #fff;
+}
+
+#home3 #home6 .text p{
+    color: #fff;
+}
+
+#home6 form{
+    margin-top: 60px;
+}
+
+#home3 #home6 input{
+    padding: 1.1rem 1.5rem !important;
+}
+
+#home3 #home6 label{
+    transform: translateY(14px);
+    font-size: 20px;
+}
+
+
+.main .overlay-photo-image-bg{
+    background-image: url(../../../assets/testmonials-bg.jpg) !important;
+    width: 50%;
+    left: auto;
+    background-attachment:fixed;
+}
+
+.main .overlay-color {
+    width: 50%;
+    left: auto;
+    top: 0;
+    bottom: 0 !important;
+    opacity: .3 !important;
+}
+
+@media (max-width: 991px){
+    .main .overlay-photo-image-bg, .main .overlay-color {
+        width: 0;
+    }
+}
+
+.main .swiper-button-prev, .main .swiper-button-next{
+    margin-top: 1px !important;
+}
+
+.main .testmonial-card .testimonial-content{
+    border-bottom: 0.25rem solid #fff;
+    padding: 50px 30px;
+}
